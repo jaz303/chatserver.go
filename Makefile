@@ -6,3 +6,7 @@ clean:
 
 run: chatserver
 	./chatserver
+
+format:
+	gofmt -w=true -tabs=false -tabwidth=2 chatserver.go
+
